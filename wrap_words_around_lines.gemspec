@@ -1,10 +1,10 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "wrap_word/version"
+require "wrap_words_around_lines/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "wrap_word"
+  spec.name          = "wrap_words_around_lines"
   spec.version       = WrapWord::VERSION
   spec.authors       = ["Emma Corbett"]
   spec.email         = ["emma@madetech.com"]

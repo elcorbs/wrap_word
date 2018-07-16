@@ -1,4 +1,4 @@
-require "wrap_word/version"
+require "wrap_words_around_lines/version"
 
 module WrapWord
   DEFAULT_LENGTH = 20
